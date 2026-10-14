@@ -1,0 +1,81 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:f89931d2-639e-5946-bb30-5def0b52c9db",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-12T06:30:16Z",
+    "component": {
+      "type": "application",
+      "name": "CLHEP",
+      "version": "d8ca24ef41d2",
+      "bom-ref": "pkg:generic/anticloud/CLHEP@d8ca24ef41d2",
+      "purl": "pkg:generic/anticloud/CLHEP@d8ca24ef41d2",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "d8ca24ef41d2ab33e822f27cd4d7848f27e22452"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": ""
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "awkward",
+      "version": ">=2.8.2",
+      "purl": "pkg:pypi/awkward@2.8.2",
+      "bom-ref": "pypi/awkward@>=2.8.2"
+    },
+    {
+      "type": "library",
+      "name": "cramjam",
+      "version": ">=2.5.0",
+      "purl": "pkg:pypi/cramjam@2.5.0",
+      "bom-ref": "pypi/cramjam@>=2.5.0"
+    },
+    {
+      "type": "library",
+      "name": "xxhash",
+      "version": "unspecified",
+      "purl": "pkg:pypi/xxhash",
+      "bom-ref": "pypi/xxhash@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "unspecified",
+      "purl": "pkg:pypi/numpy",
+      "bom-ref": "pypi/numpy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "fsspec",
+      "version": "!=2026.2.0",
+      "purl": "pkg:pypi/fsspec@2026.2.0",
+      "bom-ref": "pypi/fsspec@!=2026.2.0"
+    },
+    {
+      "type": "library",
+      "name": "packaging",
+      "version": "unspecified",
+      "purl": "pkg:pypi/packaging",
+      "bom-ref": "pypi/packaging@unspecified"
+    }
+  ]
+}
