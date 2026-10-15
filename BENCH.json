@@ -2,13 +2,11 @@
  "schema": "anticloud.tier-bench/1",
  "project": "CLHEP",
  "source": {
-  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\NUCLEAR\\CLHEP\\UPSTREAM_CLONE",
   "git": {
-   "head": "d8ca24ef41d2ab33e822f27cd4d7848f27e22452",
-   "url": "https://github.com/scikit-hep/uproot5",
-   "branch": "main",
-   "committed_at": "",
-   "sha_verified_from": "GitHub API substitute swap 2026-10-12 | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/drbenmorgan/CLHEP",
+   "head": "ab0d02fd349f0640d65b2e08a82d8151f10dd2b3",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/scikit-hep/uproot5"
   }
  },
  "metrics": {

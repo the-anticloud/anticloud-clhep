@@ -1,36 +1,19 @@
 # CLHEP
 
-> Uproot is a library for reading and writing [ROOT files](https://root.cern/) in pure Python and NumPy.
+> Full information on CLHEP is available on the WEB: http://cern.ch/clhep
 
-**Category:** NUCLEAR · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/scikit-hep/uproot5 · **Pinned commit:** `d8ca24ef41d2ab33e822f27cd4d7848f27e22452` · **Vendor:** Anticloud FZ LLE
-
-> **Note:** this package vendors `https://github.com/scikit-hep/uproot5` as the implementation for the `CLHEP` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
+**Category:** NUCLEAR · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/drbenmorgan/CLHEP · **Pinned commit:** `ab0d02fd349f0640d65b2e08a82d8151f10dd2b3` · **Vendor:** Anticloud FZ LLE
 
 ## What This Project Is
 
-Uproot is a library for reading and writing [ROOT files](https://root.cern/) in pure Python and NumPy.
+Full information on CLHEP is available on the WEB: http://cern.ch/clhep
 
 This is the upstream project, vendored at the pinned commit above and packaged offline-first. The 12 improvements Anticloud adds live in `anticloud/` and are described under *Anticloud Overlay* below. Every fact in this file traces to a file in this directory.
 
 ## Installation
 
-Uproot can be installed [from PyPI](https://pypi.org/project/uproot) using pip.
-
-```bash
-pip install uproot
 ```
-
-Uproot is also available using [conda](https://anaconda.org/conda-forge/uproot).
-
-```bash
-conda install -c conda-forge uproot
-```
-
-If you have already added `conda-forge` as a channel, the `-c conda-forge` is unnecessary. Adding the channel is recommended because it ensures that all of your packages use compatible versions (see [conda-forge docs](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge)):
-
-```bash
-conda config --add channels conda-forge
-conda update --all
+# See the upstream README (linked above) for build steps.
 ```
 
 ## Usage
@@ -77,7 +60,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-59156dce4be5e6779af990f45d3ab8469b2039a2a3dc04c36bfaba0d25e0d2ff
+091c24dc2db9da160ab8a228d239ba241b7880ced54587e8b1868d6a5ff5e6e6
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.
